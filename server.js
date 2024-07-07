@@ -100,7 +100,7 @@ app.use('/person',personRoutes);
 
 const menuRoutes=require('./routes/menuRoutes');
 app.use('/MenuItem',menuRoutes);
-
+//just checking if git is working or not
 app.listen(3000, ()=>{
     console.log('server is working on port 3000');
 });
